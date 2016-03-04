@@ -1,13 +1,13 @@
 === linkylinkerton ===
 Contributors: binarygary
-Tags: permalinks, old slug
+Tags: permalinks, old slug, previous slug, alternative permalink, slug
 Requires at least: 4.0
 Tested up to: 4.4.2
-Stable tag: trunk
+Stable tag: 0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Linkylinkerton adds a column to the table view of all post types that displays slug links that will work for this specific post including ID link and any old slugs. 
+Linkylinkerton adds a column to the table view of posts and displays slug links that will work for this post including ID link and any old slugs. 
 
 == Description ==
 Linkylinkerton adds a column to the table view of all post types that displays slug links that will work for this specific post including ID link and any old slugs. 
@@ -15,4 +15,12 @@ Why?  I ran into situations where I posted stuff and submitted it to facebook an
 You can probably think of better ways to use this though.
 
 == Installation ==
-Standard installation instructions.
+Standard installation instructions.  Y'know...use the repository. 
+
+== Changelog ==
+
+= 0.2 =
+*fixed permalink variable name so current permalink displayed href is correct
+
+= 0.1 =
+*launched this mamajama

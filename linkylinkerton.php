@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Linkylinkerton
- * Version: 0.1
+ * Version: 0.2
  * Description: Adds a column that displays all links for a post
  * Author: Gary Kovar
  * Author URI: http://binarygary.com
@@ -28,7 +28,7 @@ function linkylinkerton_columns_links($name) {
 			$links=get_post_meta($post->ID, '_wp_old_slug',false);
 			$permalink=get_permalink($post->ID, false);
 			$slug=get_post_field('post_name',$post->ID);
-			echo "<a href=$permanlink>$permalink</a><BR />";
+			echo "<a href=$permalink>$permalink</a><BR />";
 			$address=str_replace("/$slug",'',$permalink);
 			if (count($links)==0) {
 				echo "<a href=";
